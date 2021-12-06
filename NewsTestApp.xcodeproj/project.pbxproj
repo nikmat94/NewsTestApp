@@ -3,29 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5E31CCA7272747AC002E3EDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E31CCA6272747AC002E3EDB /* AppDelegate.swift */; };
-		5E31CCA9272747AC002E3EDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E31CCA8272747AC002E3EDB /* SceneDelegate.swift */; };
-		5E31CCAB272747AC002E3EDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E31CCAA272747AC002E3EDB /* ViewController.swift */; };
-		5E31CCAE272747AC002E3EDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E31CCAC272747AC002E3EDB /* Main.storyboard */; };
+		5E31CCAB272747AC002E3EDB /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E31CCAA272747AC002E3EDB /* NewsListViewController.swift */; };
 		5E31CCB1272747AC002E3EDB /* NewsTestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E31CCAF272747AC002E3EDB /* NewsTestApp.xcdatamodeld */; };
 		5E31CCB3272747B1002E3EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E31CCB2272747B1002E3EDB /* Assets.xcassets */; };
 		5E31CCB6272747B1002E3EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E31CCB4272747B1002E3EDB /* LaunchScreen.storyboard */; };
+		5E31CCC227274C73002E3EDB /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E31CCC127274C73002E3EDB /* NewsModel.swift */; };
+		5E31CCC727274FEA002E3EDB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E31CCC627274FEA002E3EDB /* NetworkService.swift */; };
+		5E31CCCB2729714C002E3EDB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5E31CCCA2729714C002E3EDB /* Kingfisher */; };
+		5E31CCD2272C73EB002E3EDB /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5E31CCD1272C73EB002E3EDB /* RealmSwift */; };
+		5E31CCD5272C76EA002E3EDB /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E31CCD4272C76EA002E3EDB /* StorageService.swift */; };
+		5EB4A698275659160021D6E6 /* SupportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB4A697275659160021D6E6 /* SupportService.swift */; };
+		5EC62865274D682000AAA547 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC62864274D682000AAA547 /* DataService.swift */; };
+		5ED2D59E274E5B37008760F8 /* DetailsNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2D59D274E5B37008760F8 /* DetailsNewsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E31CCA3272747AC002E3EDB /* NewsTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E31CCA6272747AC002E3EDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E31CCA8272747AC002E3EDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5E31CCAA272747AC002E3EDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5E31CCAD272747AC002E3EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E31CCAA272747AC002E3EDB /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
 		5E31CCB0272747AC002E3EDB /* NewsTestApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewsTestApp.xcdatamodel; sourceTree = "<group>"; };
 		5E31CCB2272747B1002E3EDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E31CCB5272747B1002E3EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E31CCB7272747B1002E3EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E31CCC127274C73002E3EDB /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		5E31CCC627274FEA002E3EDB /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		5E31CCD4272C76EA002E3EDB /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		5EB4A697275659160021D6E6 /* SupportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportService.swift; sourceTree = "<group>"; };
+		5EC62864274D682000AAA547 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		5ED2D59D274E5B37008760F8 /* DetailsNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsNewsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E31CCD2272C73EB002E3EDB /* RealmSwift in Frameworks */,
+				5E31CCCB2729714C002E3EDB /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +71,13 @@
 			isa = PBXGroup;
 			children = (
 				5E31CCA6272747AC002E3EDB /* AppDelegate.swift */,
-				5E31CCA8272747AC002E3EDB /* SceneDelegate.swift */,
-				5E31CCAA272747AC002E3EDB /* ViewController.swift */,
-				5E31CCAC272747AC002E3EDB /* Main.storyboard */,
+				5E31CCAA272747AC002E3EDB /* NewsListViewController.swift */,
+				5ED2D59D274E5B37008760F8 /* DetailsNewsViewController.swift */,
+				5E31CCC127274C73002E3EDB /* NewsModel.swift */,
+				5E31CCC627274FEA002E3EDB /* NetworkService.swift */,
+				5E31CCD4272C76EA002E3EDB /* StorageService.swift */,
+				5EC62864274D682000AAA547 /* DataService.swift */,
+				5EB4A697275659160021D6E6 /* SupportService.swift */,
 				5E31CCB2272747B1002E3EDB /* Assets.xcassets */,
 				5E31CCB4272747B1002E3EDB /* LaunchScreen.storyboard */,
 				5E31CCB7272747B1002E3EDB /* Info.plist */,
@@ -86,6 +102,10 @@
 			dependencies = (
 			);
 			name = NewsTestApp;
+			packageProductDependencies = (
+				5E31CCCA2729714C002E3EDB /* Kingfisher */,
+				5E31CCD1272C73EB002E3EDB /* RealmSwift */,
+			);
 			productName = NewsTestApp;
 			productReference = 5E31CCA3272747AC002E3EDB /* NewsTestApp.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +133,10 @@
 				Base,
 			);
 			mainGroup = 5E31CC9A272747AC002E3EDB;
+			packageReferences = (
+				5E31CCC92729714C002E3EDB /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				5E31CCD0272C73EB002E3EDB /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = 5E31CCA4272747AC002E3EDB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,7 +153,6 @@
 			files = (
 				5E31CCB6272747B1002E3EDB /* LaunchScreen.storyboard in Resources */,
 				5E31CCB3272747B1002E3EDB /* Assets.xcassets in Resources */,
-				5E31CCAE272747AC002E3EDB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,24 +163,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E31CCAB272747AC002E3EDB /* ViewController.swift in Sources */,
+				5E31CCC727274FEA002E3EDB /* NetworkService.swift in Sources */,
+				5E31CCAB272747AC002E3EDB /* NewsListViewController.swift in Sources */,
 				5E31CCA7272747AC002E3EDB /* AppDelegate.swift in Sources */,
 				5E31CCB1272747AC002E3EDB /* NewsTestApp.xcdatamodeld in Sources */,
-				5E31CCA9272747AC002E3EDB /* SceneDelegate.swift in Sources */,
+				5E31CCC227274C73002E3EDB /* NewsModel.swift in Sources */,
+				5E31CCD5272C76EA002E3EDB /* StorageService.swift in Sources */,
+				5EC62865274D682000AAA547 /* DataService.swift in Sources */,
+				5ED2D59E274E5B37008760F8 /* DetailsNewsViewController.swift in Sources */,
+				5EB4A698275659160021D6E6 /* SupportService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5E31CCAC272747AC002E3EDB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E31CCAD272747AC002E3EDB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5E31CCB4272747B1002E3EDB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -343,6 +363,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5E31CCC92729714C002E3EDB /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.1;
+			};
+		};
+		5E31CCD0272C73EB002E3EDB /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.18.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5E31CCCA2729714C002E3EDB /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E31CCC92729714C002E3EDB /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		5E31CCD1272C73EB002E3EDB /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E31CCD0272C73EB002E3EDB /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		5E31CCAF272747AC002E3EDB /* NewsTestApp.xcdatamodeld */ = {
